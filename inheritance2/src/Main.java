@@ -1,6 +1,8 @@
+//Inheritance
 public class Main {
     public static void main(String[] args) {
         CustomerMenager customerMenager = new CustomerMenager();
         customerMenager.add(new DatabaseLogger());
+        customerMenager.add(new SmsLogger());
     }
 }
